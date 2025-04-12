@@ -1,0 +1,7 @@
+"scripts": {
+  "start": "node server.js",
+  "dev": "nodemon --watch ./ --exec node server.js",
+  "debug": "nodemon --inspect server.js",
+  "test": "jest --watchAll",
+  "lint": "eslint ."
+}
